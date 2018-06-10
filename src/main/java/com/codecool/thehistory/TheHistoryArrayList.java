@@ -66,8 +66,7 @@ public class TheHistoryArrayList implements TheHistory {
                         wordsArrayList.get(i + randomNum).equals(fromWords[randomNum])) {
                     for (int j = 0; j < toWords.length; j++) {
                         result.add(toWords[j]);
-                        i += fromWords.length-1;
-                    }
+                    }i += fromWords.length-1;
                 }else {
                     result.add(wordsArrayList.get(i));
                 }
